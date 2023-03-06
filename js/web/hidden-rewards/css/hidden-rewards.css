@@ -1,0 +1,22 @@
+#HiddenRewardBox {
+    top: 30%;
+    left: 30px;
+	max-height: 400px;
+}
+
+#HiddenRewardBox #HiddenRewardBoxBody {
+	max-height: 400px;
+	min-width: 350px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+#HiddenRewardBox table td.incident {
+    vertical-align: middle;
+    min-height: 30px;
+}
+
+#HiddenRewardBox td.warning,
+#HiddenRewardBox td .warning {
+    color: #FFB539;
+}
