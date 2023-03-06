@@ -16,8 +16,8 @@ let lng = window.navigator.language.split('-')[0];
 
 let i18n = {
 	'de' : {
-		'title' : 'FoE Helfer',
-		'desc' : "Dir gefällt diese kleine kostenlose Extension und du möchtest sie supporten damit das weiterhin so bleibt?<br> Dann ist jede kleine Spende für Support immer gern gesehen.",
+		'title' : 'FoE Helfer for Dreifragezeichen',
+		'desc' : "Coustum made by Driney / Dreifragenzeichen.",
 		'thanks' : 'Vielen Dank!'
 	},
 	'en' : {
@@ -48,7 +48,7 @@ $(function(){
 	});
 
 	$('body').on('click', '.paypal-link', ()=> {
-		chrome.tabs.create({url: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNZWYJWRFY3T2&source=url"});
+		chrome.tabs.create({url: ""});
 	});
 
 	if(lng !== 'de'){
